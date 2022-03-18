@@ -47,7 +47,7 @@ else{
 
         if(mysqli_num_rows($results) == 0){
 
-            echo "<span class='no_car_info'>Nie masz jeszcze wypożyczonego żadnego samochodu, możesz go dodać klikajać przycisk poniżej</span>";
+            echo "<span class='no_car_info'>Nie masz wypożyczonego samochodu, dodaj go klikając przycisk poniżej</span>";
             echo "<a href='add_car.php'><img class='add_a_car' src='../images/nok.png'></a>";
             $_SESSION["no_car"] = TRUE;
             

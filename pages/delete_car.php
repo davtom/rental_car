@@ -67,9 +67,9 @@ else{
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
             <tr><td><h2>Czy na pewno zakończyć wynajem?</h2></td></tr>
             <tr>
-                <td><input style="height: 20vw;" type="submit" name='yes' value="Tak"></td>
+                <td><input style="height: 7vw;" type="submit" name='yes' value="Tak"></td>
             <tr>
-                <td><input style="height: 20vw;" type="submit" name='no' value="Nie"></td>
+                <td><input style="height: 7vw;" type="submit" name='no' value="Nie"></td>
             </tr>            
         </form>
             <tr></tr>

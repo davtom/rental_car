@@ -53,6 +53,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             $_SESSION["loggedin"] = true;
                             $_SESSION["userid"] = $row['id'];
                             $_SESSION["user"] = $row['name']." ".$row['surname'];
+
+                            $today = date("Y-m-d");
+
+                            $sqlrental = "UPDATE cars SET user_id = NULL, rentalstart = NULL, rentalend = NULL WHERE rentalend < '$today'";
+                            $resultsrental = mysqli_query($link,$sqlrental);
+
                             header("location: main.php");
 
 
