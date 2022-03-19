@@ -42,7 +42,7 @@ else{
     
     <div id="display">
     
-        <a href="select_car.php"><div class="btn_block">Moje samochody</div></a>
+        <a href="select_car.php"><div class="btn_block">Mój wynajem</div></a>
         <a href="logout.php"><div class="btn_block">Wyloguj</div></a>
     
     </div>
