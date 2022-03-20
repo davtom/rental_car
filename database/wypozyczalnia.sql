@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Czas generowania: 18 Mar 2022, 11:56
+-- Czas generowania: 20 Mar 2022, 17:22
 -- Wersja serwera: 10.4.22-MariaDB
 -- Wersja PHP: 8.1.1
 
@@ -44,10 +44,9 @@ CREATE TABLE `cars` (
 --
 
 INSERT INTO `cars` (`id`, `user_id`, `make`, `model`, `year`, `capacity`, `power`, `rentalstart`, `rentalend`) VALUES
-(11, 9, 'Toyota', 'Yaris', '2019r.', '1.5 benzyna', '116KM', '2022-03-15', '2022-03-31'),
-(14, 2, 'Mercedes', 'W205', '2018r.', '2.0 diesel', '160KM', '2022-03-13', '2022-03-18'),
-(15, 4, 'Peugeot', '3008', '2020r.', '1.6 hybryda', '180KM', '2022-03-13', '2022-03-17'),
-(17, NULL, 'Audi', 'A3 8P', '2002r.', '1.8T benzyna', '160KM', NULL, NULL);
+(11, NULL, 'Toyota', 'Yaris', '2019r.', '1.5 benzyna', '116KM', NULL, NULL),
+(14, NULL, 'Mercedes', 'W205', '2018r.', '2.0 diesel', '160KM', NULL, NULL),
+(15, NULL, 'Peugeot', '3008', '2020r.', '1.6 hybryda', '180KM', NULL, NULL);
 
 -- --------------------------------------------------------
 
